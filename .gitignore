@@ -1,0 +1,29 @@
+# data and credentials (never commit)
+/data/
+.env
+kaggle.json
+*.zip
+*service-account*.json
+
+# experiment tracking and outputs
+mlruns/
+mlartifacts/
+mlflow.db
+reports/*.html
+logs/
+hf_cache/
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# os / editors
+.DS_Store
+.vscode/
+.idea/
