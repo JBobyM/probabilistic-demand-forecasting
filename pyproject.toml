@@ -1,0 +1,15 @@
+[project]
+name = "probabilistic-demand-forecasting"
+version = "0.0.1"
+description = "Probabilistic demand forecasting service on Walmart M5 data"
+requires-python = ">=3.12"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
